@@ -7,11 +7,7 @@ Here, you can explore my projects, skills, resume, and even chat with my AI assi
 
 ---
 
-## 📸 Preview
 
-![Portfolio Screenshot](https://github.com/sdnath14/my-portfolio/assets/your-image-id)
-
----
 
 ## 🛠 Tech Stack
 
@@ -30,20 +26,6 @@ Here, you can explore my projects, skills, resume, and even chat with my AI assi
 - 🔗 Social links (GitHub, LinkedIn, Email)
 - 🧠 Developer console with typing effect
 - 💼 Project demos with tooltips and hover effects
-
----
-
-## 🔗 Important Links
-
-- 📁 **GitHub Repository:** [https://github.com/sdnath14/my-portfolio](https://github.com/sdnath14/my-portfolio)
-- 🤖 **AI Chatbot App:** [https://snehachatbot.streamlit.app/](https://snehachatbot.streamlit.app/)
-- 📄 **Resume:** [Google Drive Link](https://drive.google.com/file/d/1V0j1rC1jUvYKF9bnK7GeIlJUnygfi4id/view)
-
----
-
-## 🧾 License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
