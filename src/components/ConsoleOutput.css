@@ -1,0 +1,212 @@
+/* .console-wrapper {
+    position: relative;
+    margin-top: 2rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.2rem;
+    width: fit-content;
+    background-color: #1e1e1e;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #00ffcce6;
+    z-index: 2;
+}
+
+.console-line {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.code-keyword {
+    color: #e5c07b;
+}
+
+.code-dot {
+    color: #ffffff;
+}
+
+.code-object {
+    color: #e06c75;
+}
+
+.code-func {
+    color: #61afef;
+}
+
+.code-bracket {
+    color: #ffffff;
+}
+
+.string {
+    position: relative;
+    display: inline-block;
+    width: 10ch;
+    height: 1.4em;
+    overflow: hidden;
+}
+
+.greeting {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    animation: fadeRotate 8s infinite;
+}
+
+.greeting.en {
+    animation-delay: 0s;
+    color: #f78c6c;
+}
+
+.greeting.es {
+    animation-delay: 2s;
+    color: #ffffff;
+}
+
+.greeting.de {
+    animation-delay: 4s;
+    color: #c678dd;
+}
+
+.greeting.it {
+    animation-delay: 6s;
+    color: #a9b0bd;
+}
+
+@keyframes fadeRotate {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    10% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    35% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 0;
+    }
+} */
+
+
+.console-wrapper {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+    /* Slightly larger for better visibility */
+    background-color: #1e1e1e;
+    padding: 6px 12px;
+    border-radius: 6px;
+    box-shadow: 0 0 6px rgba(0, 255, 204, 0.4);
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.console-line {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    gap: 2px;
+}
+
+/* Syntax highlighting */
+.code-keyword {
+    color: #e5c07b;
+}
+
+.code-dot {
+    color: #ffffff;
+}
+
+.code-object {
+    color: #e06c75;
+}
+
+.code-func {
+    color: #61afef;
+}
+
+.code-bracket {
+    color: #ffffff;
+}
+
+/* Greeting rotator container */
+.string {
+    position: relative;
+    display: inline-block;
+    width: 11.5ch;
+    height: 1.6em;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+/* Animated greeting messages */
+.greeting {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    animation: fadeRotate 8s infinite;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 0.75rem;
+    line-height: 1.6em;
+}
+
+.greeting.en {
+    animation-delay: 0s;
+    color: #f78c6c;
+}
+
+.greeting.es {
+    animation-delay: 2s;
+    color: #ffffff;
+}
+
+.greeting.de {
+    animation-delay: 4s;
+    color: #c678dd;
+}
+
+.greeting.it {
+    animation-delay: 6s;
+    color: #a9b0bd;
+}
+
+/* Keyframe animation: smooth slide in and out */
+@keyframes fadeRotate {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    10% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    35% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
